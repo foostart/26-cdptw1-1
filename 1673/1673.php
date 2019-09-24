@@ -14,27 +14,26 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/1666.less', 'css/1666.css');
+    $less->compileFile('less/1673.less', 'css/1673.css');
     
 ?>
 <!DOCTYPE html>
 
-<html style="background-color: #f3f3f4;">
+<html lang="en" style="background-color: #f3f3f4;">
 
     <head>
-        <title>1666</title>
+        <title>1673</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/1666.css" rel="stylesheet" type="text/css" />  
-        <script src="js/swiper.min.js"></script>
-        <script  src="js/jquery.min.js"></script>
-        <script src="js/1666.js"></script>
+        <link href="css/1673.css" rel="stylesheet" type="text/css" />  
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="js/1673.js"></script>
         <script src="js/scripts.js"></script>
     </head>
     <body>
-        <?php include $dir_block.'/1666-content.php'; ?>
+        <?php include $dir_block.'/1673-content.php'; ?>
     </body>
 </html>

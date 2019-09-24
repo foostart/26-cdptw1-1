@@ -14,25 +14,26 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/2047.less', 'css/2047.css');
+    $less->compileFile('less/1671.less', 'css/1671.css');
     
 ?>
 <!DOCTYPE html>
 
-<html style="background-color: #f3f3f4;">
+<html lang="en" 
+style="background-color: #f3f3f4;">
 
     <head>
-        <title>1666</title>
+        <title>1671</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/2047.css" rel="stylesheet" type="text/css" />  
-        <script  src="js/jquery.min.js"></script>
+         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="js/scripts.js"></script>
     </head>
     <body>
-        <?php include $dir_block.'/2047-content.php'; ?>
+        <?php include $dir_block.'/1671-content.php'; ?>
     </body>
 </html>

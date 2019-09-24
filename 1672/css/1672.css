@@ -4,10 +4,17 @@
 .type-1100 .star {
   color: yellow;
 }
+.nontion {
+  margin-top: 21px;
+  font-size: 17px;
+}
 .pro {
-  color: #00FFFF;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #79afe4;
 }
 .num {
+  font-size: 22px;
   margin-top: 64px;
   margin-left: 0px;
 }
@@ -18,21 +25,21 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin-top: 25px;
+  margin-top: 17px;
 }
 .far {
   font-weight: 400;
   margin-top: 13px;
 }
+.heart1:hover {
+  color: red;
+}
+.fa:hover {
+  color: red;
+}
 .More {
   margin-left: 20px;
   margin-top: -20px;
-}
-.button {
-  width: 163px;
-  height: 36px;
-  background: orange;
-  border-radius: 6%;
 }
 p#text-button {
   text-align: center;
@@ -56,59 +63,44 @@ ul.like-banner li {
   width: 88px;
   float: left;
 }
+.live-rating {
+  font-size: 40px;
+  padding: 10px;
+}
 .heart1 {
   margin-top: -11px;
 }
 .img {
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+  width: 242px;
+  margin-top: 20px;
 }
 .img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .button {
+  background-color: #58257b;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  border: 0;
-  width: 196px;
-  height: 210px;
-  position: relative;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform: scale(1);
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 175px;
+  height: 36px;
+  background: orange;
+  margin-top: 20px;
+  border-radius: 4px;
 }
-.button {
-  display: inline-block;
-  border: 0;
-  width: 95px;
-  height: 38px;
-  position: relative;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  padding-top: 8px;
-  border: 2px solid orange;
+.button1 {
+  background-color: #fcb800;
+  color: black;
+  border: 1px solid white;
 }
-.button:hover {
-  box-shadow: 0px 0px 150px #000000;
-  z-index: 2;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1.5);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1.5);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1.5);
-  transition: all 200ms ease-in;
-  transform: scale(1.5);
+.button1:hover {
+  background-color: crimson;
+  color: white;
 }

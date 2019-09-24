@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 col-12">
                         <div class="img">
-                            <img src="../1672/images/38a.jpg">
+                            <img src="../1672/images/38a.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 col-6">
@@ -28,9 +28,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                    DBPOWER T20 1500 Lumens LCD Project<br>   
                                </p>
                             </div>
-                            <div class="star">
-                                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> 1
-                            </div> 
+                            
+                            <span class="my-rating-9"></span>
+                            <span class="live-rating"></span>
+
                             <div class="nontion">
                                 <p>Curabitur at lacus ac velit ornare lobortis. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Ut varius tincidunt libero.</p>
                             </div>
@@ -40,11 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="num">
                             <b>$200.00</b> 
                         </div>
-                        <div class="button">
-                            <p id="text-button">
-                                <a id="cart-text" href="#">Add To Cart</a>
-                            </p> 
-                        </div>
+                          <button class="button button1">Add to cart</button>
                         <ul class="like-banner">
                             <li>
                                 <div class="heart1">
@@ -68,7 +65,6 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-</div>
 
 
 

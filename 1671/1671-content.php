@@ -105,7 +105,7 @@
                             <div class="form-group">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label">
+                                    <label class="form-check-label"></label>
                                         Get Latest
                                         <p>New</p>
                                 </div>

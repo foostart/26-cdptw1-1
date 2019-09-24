@@ -25,9 +25,11 @@
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1672.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/1672.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+         <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script src="<?php echo $url_path ?>/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+          <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js" type="text/javascript"></script>
+          <script src="<?php echo $url_path ?>/js/1100.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include './1672-content.php'; ?>

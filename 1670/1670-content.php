@@ -71,11 +71,12 @@
                         <div class="cd-filter-content">
                             <div class="cd-select cd-filters">
                                 <select class="filter" name="selectThis" id="selectThis">
-                                    <option value=".option1">Hitachi<span>(1)</span></option>
-                                    <option value=".option2">LG<span>(1)</span></option>
-                                    <option value=".option3">Nikon<span>(1)</span></option>
-                                    <option value=".option4">Panasonic<span>(1)</span></option>
+                                    <option value=".option1">Hitachi(1) </option>
+                                    <option value=".option2">LG(1)</option>
+                                    <option value=".option3">Nikon(1)</option>
+                                    <option value=".option4">Panasonic (1)</option>
                                 </select>
+
                             </div> <!-- cd-select -->
                         </div> <!-- cd-filter-content -->
                     </div> <!-- cd-filter-block -->
