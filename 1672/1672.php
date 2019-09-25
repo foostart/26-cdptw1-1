@@ -15,7 +15,7 @@
     $less = new lessc;
     $less->compileFile('less/1672.less', 'css/1672.css');
 ?>
-<html>
+<html lang="en">
     <head>
         <title>1672</title>
         <meta charset="UTF-8">
@@ -27,9 +27,8 @@
         <link href="<?php echo $url_path ?>/css/1672.css" rel="stylesheet" type="text/css"/>
          <link href="<?php echo $url_path ?>/css/star-rating-svg.css" rel="stylesheet" type="text/css"/>
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <script src="<?php echo $url_path ?>/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-          <script src="<?php echo $url_path ?>/js/jquery.star-rating-svg.js" type="text/javascript"></script>
-          <script src="<?php echo $url_path ?>/js/1100.js" type="text/javascript"></script>
+        <script  src="<?php echo $url_path ?>/js/jquery-1.9.1.min.js" ></script>
+          <script src="<?php echo $url_path ?>/js/1100.js"></script>
     </head>
     <body>
         <?php include './1672-content.php'; ?>

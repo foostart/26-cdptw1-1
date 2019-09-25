@@ -25,15 +25,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="X-UA-Compatible" content="ie=edge">
     <title>1670</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="<?php echo $url_path; ?>/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="<?php echo $url_path; ?>/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="<?php echo $url_path; ?>/css/1670.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
-    <script async src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+
     <script src="js/bootstrap.js"></script>
 </head>
 <body>

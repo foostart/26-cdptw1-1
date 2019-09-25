@@ -1,73 +1,133 @@
-* {box-sizing: border-box;}
-.swiper-container {
-		width: 200px;
-
-		margin: 20px auto;
-}
-
-.swiper-slide-container {
-  text-align: center;
-	font-size: 18px;
-	background: #fff;
+.type-1673{
+ .swiper-container {          
+    position: relative;
+    overflow: auto;
+    list-style: none;
+    .swiper-wrapper {
+        display: -webkit-box;
+        .swiper-slide {
+            cursor: pointer;               
+            img{
+                width: 40%;
+                margin:auto;
+                padding-bottom:150px;
+            }               
+        }
+    }                  
  
-  max-width: 100px;
-  margin:auto;
-		/* Center slide text vertically */
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		-webkit-align-items: center;
-		align-items: center;
+    .btn-primary {
+        background: brown;
+        color: #fff;
+        border-color: brown;
+    }
+    .btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding: 12px 18px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        letter-spacing: 0.15em;
+    }
+    .btn-primary:hover{
+        background: #b28d6a;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 2.7rem;
+        height: 4.4rem;
+        margin-top: -2.2rem;
+        cursor: pointer;
+    }
+    .swiper-button-prev:not(:focus){
+        /* Styles for only form buttons that do not have focus */
+    }
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        right: auto;
+        opacity: 0;
+        position: absolute;
+        top: 46rem;
+        background-image: none;
+    } 
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        left: auto;
+        opacity: 0;
+        position: absolute;
+        top: 46rem;
+        background-image: none;
+    }
+    .fa-angle-right, .fa-angle-left{
+        position: relative;
+        color: rgb(211, 118, 110);
+        font-size: 7rem;
+        bottom: 200px;
+        left: 4rem;
+    }
+    .fa-angle-right:hover{
+        color: rgb(137, 98, 85);
+    }
+    .fa-angle-left:hover{
+        color: rgb(137, 98, 85);
+    }
+}
+.swiper-pagination-bullets
+{
+    top: 74%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+}
+.swiper-container:hover{
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next, 
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        opacity: 1;
+    }
+} 
 
 }
-
-.gallery-top {
-		width: 100%;
-		img {
-			width: 100%;
-		}
-	}
-.gallery-thumbs {
-		height: 20%;
-		box-sizing: border-box;
-		img {
-			width: 110%;
-		}
-
+@media (max-width: 900px){
+    .fa-angle-right, .fa-angle-left{
+     bottom: 300px !important;
+ }
 }
-.gallery-thumbs .swiper-slide {
-		width: 20%;
-		height: 100%;
-		opacity: 0.5;
-}
-.gallery-thumbs .swiper-slide-active {
-		opacity: 1;
-}
-.img-zoom-container {
-  position: relative;
+@media (max-width: 700px){
+    .fa-angle-right, .fa-angle-left{
+     bottom: 350px !important;
+ }
+ .btn{
+    padding: 6px 10px !important;
 }
 
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
-  width: 40px;
-  height: 40px;
 }
-
-.img-zoom-result {
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 200px;
- background: #eee;
+@media (max-width: 479px){
+    .fa-angle-right, .fa-angle-left{
+        display: none;
+    }
 }
-.type-i-22 {
-	background: #eee;
+@media (max-width: 450px){
+    .slide{
+        margin-top: -170px !important;
+        margin-bottom: 170px !important;
+    }
+    .slide2{
+        margin-top: -170px !important;
+        margin-bottom: 170px !important;
+    }
 }
