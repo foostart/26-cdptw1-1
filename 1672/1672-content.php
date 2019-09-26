@@ -29,18 +29,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                </p>
                             </div>
                             
-                           <fieldset class="rating">
-                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-                            </fieldset>
+                         <div class="stars">
+                                  <form>
+                                    <input class="star star-10" id="star-5" type="radio" name="star"/>
+                                    <label class="star star-10" for="star-5"></label>
+                                    <input class="star star-9" id="star-4" type="radio" name="star"/>
+                                    <label class="star star-9" for="star-4"></label>
+                                    <input class="star star-8" id="star-3" type="radio" name="star"/>
+                                    <label class="star star-8" for="star-3"></label>
+                                    <input class="star star-7" id="star-2" type="radio" name="star"/>
+                                    <label class="star star-7" for="star-2"></label>
+                                    <input class="star star-6" id="star-1" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-1"></label>
+                                  </form>
+                                </div>
 
                             <div class="nontion">
                                 <p>Curabitur at lacus ac velit ornare lobortis. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Ut varius tincidunt libero.</p>
