@@ -16,12 +16,12 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="main">
                 <div class="row">
-                    <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 col-12">
+                    <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 ">
                         <div class="img">
                             <img src="../1672/images/38a.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
                         <div class="products">
                             <div class="pro">
                                 <p>
@@ -31,16 +31,16 @@ $url_path = str_replace('\\', '/', $url_path);
                             
                          <div class="stars">
                                   <form>
-                                    <input class="star star-10" id="star-5" type="radio" name="star"/>
-                                    <label class="star star-10" for="star-5"></label>
-                                    <input class="star star-9" id="star-4" type="radio" name="star"/>
-                                    <label class="star star-9" for="star-4"></label>
-                                    <input class="star star-8" id="star-3" type="radio" name="star"/>
-                                    <label class="star star-8" for="star-3"></label>
-                                    <input class="star star-7" id="star-2" type="radio" name="star"/>
-                                    <label class="star star-7" for="star-2"></label>
-                                    <input class="star star-6" id="star-1" type="radio" name="star"/>
-                                    <label class="star star-5" for="star-1"></label>
+                                    <input class="star " id="star-5" type="radio" name="star"/>
+                                    <label class="star " for="star-5"></label>
+                                    <input class="star " id="star-4" type="radio" name="star"/>
+                                    <label class="star " for="star-4"></label>
+                                    <input class="star " id="star-3" type="radio" name="star"/>
+                                    <label class="star " for="star-3"></label>
+                                    <input class="star " id="star-2" type="radio" name="star"/>
+                                    <label class="star " for="star-2"></label>
+                                    <input class="star" id="star-1" type="radio" name="star"/>
+                                    <label class="star star-5 " for="star-1"></label>
                                   </form>
                                 </div>
 
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div> 
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6 col-6">
+                    <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6 ">
                         <div class="num">
                             <b>$200.00</b> 
                         </div>

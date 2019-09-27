@@ -8,6 +8,7 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>  
         <div class="type-i-22">
+            <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="features-block">
@@ -120,4 +121,4 @@
                 </div>                                 
             </div>               
         </div>
-    
+     </div>

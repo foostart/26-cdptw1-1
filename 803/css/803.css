@@ -1,36 +1,13 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.row.heading h2 {
-  color: #fff;
-  font-size: 52.52px;
-  line-height: 95px;
-  font-weight: 400;
-  text-align: center;
-  margin: 0 0 40px;
-  padding-bottom: 20px;
-  text-transform: uppercase;
-}
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.heading.heading-icon {
-  display: block;
-}
 .padding-lg {
   display: block;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.practice-area.padding-lg {
-  padding-bottom: 55px;
-  padding-top: 55px;
-}
-.practice-area .inner {
-  border: 1px solid #999999;
-  text-align: center;
-  margin-bottom: 28px;
-  padding: 40px 25px;
 }
 .fab {
   font-size: 25px;
@@ -38,21 +15,6 @@ ul {
 .our-webcoderskull .cnt-block:hover {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
   border: 0;
-}
-.practice-area .inner h3 {
-  color: #3c3c3c;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  padding: 10px 0;
-}
-.practice-area .inner p {
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 400;
-}
-.practice-area .inner img {
-  display: inline-block;
 }
 .our-webcoderskull {
   background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
@@ -106,13 +68,6 @@ ul {
   width: auto;
   margin: 0 5px;
 }
-.our-webcoderskull .cnt-block .follow-us li .fa {
-  font-size: 24px;
-  color: #767676;
-}
-.our-webcoderskull .cnt-block .follow-us li .fa:hover {
-  color: #025a8e;
-}
 fieldset,
 label {
   margin: 0;
@@ -147,9 +102,6 @@ input.star:checked ~ label.star:before {
 input.star-5:checked ~ label.star:before {
   color: #FE7;
   text-shadow: 0 0 20px #952;
-}
-input.star-1:checked ~ label.star:before {
-  color: #F62;
 }
 label.star:hover {
   transform: rotate(-15deg) scale(1.3);
