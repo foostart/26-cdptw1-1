@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
        <h3 style="text-align: center;color: white;font-size: 65px;">Our Team</h3>
     </div>
     <ul class="row">
-      <li class="col-md-6 col-lg-3">
+      <li class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
           <div class="cnt-block" style="height: 370px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
             <h3><a href="#">Web coder skull</a></h3>
@@ -44,7 +44,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
           </div>
       </li>
-      <li class="col-md-6 col-lg-3">
+      <li class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
           <div class="cnt-block" style="height: 370px;">
             <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
             <h3><a href="#">Kappua </a></h3>
@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
           </div>
       </li>
-      <li class="col-md-6 col-lg-3">
+      <li class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
           <div class="cnt-block" style="height: 370px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
             <h3><a href="#">Manish </a></h3>
@@ -98,7 +98,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
           </div>
        </li>
-      <li class="col-md-6 col-lg-3">
+      <li class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
           <div class="cnt-block" style="height: 370px;">
             <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
             <h3><a href="#">Atul </a></h3>

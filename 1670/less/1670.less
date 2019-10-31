@@ -106,6 +106,7 @@ Primary style
   }
   .cd-main-content.is-fixed .cd-filter-trigger {
     position: fixed;
+    text-decoration: none;
   }
   @media only screen and (min-width: 768px) {
     .cd-main-content.is-fixed .cd-gallery {
@@ -337,7 +338,7 @@ Primary style
   .cd-filter {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -130px;
     width: 280px;
     height: 100%;
     background: #ffffff;
@@ -390,8 +391,9 @@ Primary style
     -moz-transition: opacity 0.3s;
     transition: opacity 0.3s;
     z-index: 3;
+    text-decoration: none;
   }
-  .no-touch .cd-filter .cd-close:hover {
+   .cd-filter .cd-close:hover {
     background: #32255f;
   }
   .cd-filter.filter-is-visible {
@@ -428,6 +430,7 @@ Primary style
     white-space: nowrap;
     background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
     z-index: 3;
+    text-decoration: none;
   }
   .cd-filter-trigger.filter-is-visible {
     pointer-events: none;
@@ -447,8 +450,10 @@ Primary style
       -moz-transition: color 0.3s;
       transition: color 0.3s;
     }
-    .no-touch .cd-filter-trigger:hover {
+     .cd-filter-trigger:hover {
       color: #41307c;
+      text-decoration: none;
+
     }
     .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
       color: #ffffff;
@@ -467,7 +472,7 @@ Primary style
     /* filter block title */
     position: relative;
     margin-bottom: .2em;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 4px;
     color: #9a9a9a;
     text-transform: uppercase;
     font-weight: 700;
@@ -649,6 +654,7 @@ Primary style
   }
   .cd-filter-block input[type=radio]:checked + label::after,
   .cd-filter-block input[type=checkbox]:checked + label::after {
+    margin-left: -24px;
     display: block;
   }
   
@@ -661,9 +667,16 @@ Primary style
   .cd-filter-content {
     position: relative;
   }
-  i.fa.fa-search {
-    right: 30px;
-    position: absolute;
-    top: 15px;
-    opacity: 0.5;
-}
+ button{
+  position: absolute;
+    right: 1px;
+    width: 20%;
+    height: 100%;
+    border: none;
+ }
+ button:hover{
+  background: blue;
+ }
+ .cd-filter-trigger{
+  text-decoration: none;
+ }

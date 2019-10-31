@@ -39,7 +39,7 @@
       box-shadow: 0px 5px #0353a0;
       a {
         color: white;
-        font-size: 0.8em;
+        font-size: 14px;
         padding: 5px;
       }
       a:hover {
@@ -86,7 +86,7 @@
     .content {
       color:white;
       h4 {
-        font-size: 1em;
+        font-size: 16px;
       }
     }
   }
@@ -106,8 +106,8 @@
     border-color: rgba(255,255,255, 0.25);
   }
 
-   .features-box:nth-child(3)::before {
-      display: none;
+  .features-box:nth-child(3)::before {
+    display: none;
   }
 
 
@@ -135,15 +135,114 @@
       }
       .btn {
         margin-left: -60%;
-        padding: 0 80px 0 22px;
+        padding: 0 25px 0 11px;
         height: 48px;
         box-shadow: 0 4px 0 #0353a0;
       }
     }
   }
-  @media (max-width: 767px) {
+  .gh{
+    margin-top: 1px;
+    margin-left: 81px;
+  }
+  @media (max-width: 600px) {
+    .col-left p{
+      font-size: 13px;
+    }
+    .col-left h3{
+      font-size: 14px;
+    }
+    .col-md-6 .col-xm-12{
+      font-size: 13px;
+    }
+    .features-box .content h4 {
+      font-size: 14px ;
+    }
     .features-block::before {
       display: none;
     }
+    .align{
+      margin-left: 0;
+    }
+    .col-right .form-group{
+      width: 55%;
+      margin-left: 19%;
+      opacity: 0.6;
+    }
+    .col-right .form-group textarea {
+      margin-left: 0%;
+      width: 100%;
+      height: 120px;
+    }
+    .col-right .form-group .btn{
+      margin-left: -34%;
+      padding: 0 80px 0 22px;
+      height: 48px;
+      box-shadow: 0 4px 0 #0353a0;
+    }
   }
- }
+  @media (min-width: 600px) and (max-width: 900px){
+    .col-md-6 .col-xm-12{
+      font-size: 13px;
+    }
+    h3 h4{
+      font-size: 13px;
+    }
+    .features-block::before {
+      display: none;
+    }
+    .align{
+      margin-left: 0;
+    }
+    .col-right .form-group{
+      width: 100%;
+      margin-left: 0%;
+      opacity: 0.6;
+    }
+    .col-right .form-group textarea {
+     margin-left: 0%;
+     width: 100%;
+     height: 120px;
+   }
+   .col-right .form-group .btn{
+    margin-top: 27px;
+    margin-bottom: 14px;
+    margin-left: -89px;
+    padding: 0 80px 0 22px;
+    height: 48px;
+    box-shadow: 0 4px 0 #0353a0;
+  }
+}
+@media (min-width: 900px) and (max-width: 1300px){
+   .col-md-6 .col-xm-12{
+      font-size: 16px;
+    }
+    h3 h4{
+      font-size: 30px;
+    }
+    .features-block::before {
+      display: none;
+    }
+    .align{
+      margin-left: 0;
+    }
+    .col-right .form-group{
+      width: 100%;
+      margin-left: 0%;
+      opacity: 0.6;
+    }
+    .col-right .form-group textarea {
+     margin-left: 0%;
+     width: 100%;
+     height: 120px;
+   }
+   .col-right .form-group .btn{
+    margin-top: 27px;
+    margin-bottom: 14px;
+    margin-left: -89px;
+    padding: 0 80px 0 22px;
+    height: 48px;
+    box-shadow: 0 4px 0 #0353a0;
+  }
+}
+}

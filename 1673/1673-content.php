@@ -12,24 +12,23 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1673">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/38a.jpg" alt="Chania">
-            </div>
-
-             <div class="swiper-slide"> 
-                <img class="img-responsive" src="http://<?php echo $url_path ?>/images/38b.jpg" alt="Chania">      
-            </div>
-
-             <div class="swiper-slide">
-                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/38c.jpg" alt="Flower">
-            </div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-            <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+	<div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/38a.png"></div>
+      <div class="swiper-slide"><img src="images/38b.png"></div>
+      <div class="swiper-slide"><img src="images/38c.png"></div>
+      <div class="swiper-slide"><img src="images/38b.png"></div>
     </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-red"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+    <div class="swiper-button-prev swiper-button-red"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+     <div class="swiper-slide"><img src="images/38a.png"></div>
+     <div class="swiper-slide"><img src="images/38b.png"></div>
+     <div class="swiper-slide"><img src="images/38c.png"></div>
+     <div class="swiper-slide"><img src="images/38b.png"></div>
+    </div>
+  </div>
 </div>
-

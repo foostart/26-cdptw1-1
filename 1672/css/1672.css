@@ -5,7 +5,6 @@
   color: #6d6d67;
 }
 .nontion {
-  margin-top: 21px;
   font-size: 17px;
 }
 .pro {
@@ -14,8 +13,8 @@
   color: #79afe4;
 }
 .num {
-  font-size: 22px;
-  margin-top: 64px;
+  font-size: 18px;
+  margin-top: 63px;
   margin-left: 0px;
 }
 button,
@@ -30,12 +29,6 @@ textarea {
 .far {
   font-weight: 400;
   margin-top: 13px;
-}
-.heart1:hover {
-  color: red;
-}
-.fa:hover {
-  color: red;
 }
 .More {
   margin-left: 20px;
@@ -64,7 +57,14 @@ ul.like-banner li {
   float: left;
 }
 .heart1 {
-  margin-top: -11px;
+  margin-top: -1px;
+  color: #000;
+}
+.heart1 a {
+  color: #000;
+}
+.heart2 {
+  color: red;
 }
 .img {
   width: 242px;
@@ -81,14 +81,13 @@ ul.like-banner li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 22px 2px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   width: 175px;
   height: 36px;
   background: orange;
-  margin-top: 20px;
   border-radius: 4px;
 }
 .button1 {
@@ -103,15 +102,16 @@ ul.like-banner li {
 div.stars {
   width: 270px;
   display: inline-block;
-  padding-right: 75px;
+  padding-right: 86px;
   font-size: 20px;
+  margin-top: 8px;
 }
 input.star {
   display: none;
 }
 label.star {
   float: right;
-  padding: 10px;
+  padding: 0 18px 0 0;
   color: #444;
   transition: all .2s;
 }
